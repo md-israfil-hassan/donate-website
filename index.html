@@ -16,7 +16,6 @@
 <style>
 *{
     font-family: "Lexend", serif;
-
 }
 
 </style>
@@ -27,52 +26,52 @@
   <header>
         <!-- navbar -->
 <nav>
-  <div class=" fixed shadow-md top-0  z-1 navbar py-7 lg:px-32 glass">
+  <div class=" fixed shadow-md top-0  z-1 navbar py-8 px-4  lg:px-32 glass">
       <div class="navbar-start">
           <div>
-              <button class="btn btn-ms text-lg bg-[#B4F461] font-semibold lg:px-9 ">Blog</button>
+              <button id="blog-page-btn" class="btn lg:btn-ms lg:text-lg bg-[#B4F461] font-medium lg:font-semibold lg:px-9 ">Blog</button>
           </div>
       </div>
       <div class="navbar-center">
           <div class="mr-2">
-              <img class="w-10" src="assets/logo.png" alt=" Donate logo">
+              <img class=" w-6 lg:w-10" src="assets/logo.png" alt=" Donate logo">
           </div>
-<h4 class="text-xl font-semibold">Donate Bangladesh</h4>
+<h4 class=" text-xs lg:text-2xl font-semibold">Donate Bangladesh</h4>
       </div>
       <div class="navbar-end">
-       <div><img class="w-5 mr-1" src="assets/coin.png" alt=""></div>
-       <h4 id="account-balance" class="font-medium text-lg text-[#515151]">5500 BDT</h4>
+       <div><img class="w-3 mr-1" src="assets/coin.png" alt=""></div>
+       <h4 id="account-balance" class="font-medium text-xs lg:text-lg text-[#515151]">5500 BDT</h4>
       </div>
     </div>
 </nav>
   </header>
 
 <!-- main section -->
-    <main class=" mt-36 lg:container lg:mx-auto">
+    <main class=" mt-32 lg:mt-36 mx-4 lg:container lg:mx-auto">
       <div class="flex mb-5 justify-center gap-5">
-        <button id="donate-page-btn" class=" btn btn-lg hover:bg-[#B4F461]">Donation</button>
-        <button id="history-page-btn" class="btn btn-lg ">History</button>
+        <button id="donate-page-btn" class=" btn btn-sm lg:btn-lg ">Donation</button>
+        <button id="history-page-btn" class="btn btn-sm lg:btn-lg ">History</button>
 
       </div>
 <section id="card-id">
 
 <!-- first Donate Card  -->
 
-      <div class="mt-7 card lg:px-5 lg:card-side bg-base-100 border-2 border-gray-200">
+      <div class=" mb-5 lg:mb-0 lg:mt-7 card lg:px-5 lg:card-side bg-base-100 border-2 border-gray-200">
         <figure >
-          <img class="w-96"
+          <img class="w-72 pt-5 lg:pt-0 lg:w-96"
             src="assets/noakhali.png"
             alt="Noakhali" />
         </figure>
         <div class="card-body gap-y-2">
 <div>
-  <kbd class="kbd gap-x-2 "> 
-    <img class="w-5" src="assets/coin.png" alt="">
-    <h4 id="submit-amount" class=" text-[#515151] font-semibold">0 BDT</h4>
+  <kbd class="kbd gap-x-1 lg:gap-x-2 "> 
+    <img class="w-3 lg:w-5" src="assets/coin.png" alt="">
+    <h4 id="submit-amount" class=" text-[#515151] lg:text-xl text-xs sm:font-medium lg:font-semibold">0 BDT</h4>
   </kbd>
 </div> 
-          <h2 class="card-title font-bold">Donate for Flood at Noakhali, Bangladesh!</h2>
-          <p class="font-light text-[14px] "> The recent floods in Noakhali have caused significant damage to <br> homes  infrastructure. Your donation will help provide essential <br> supplies and  to those affected by this disaster. Every contribution, <br> big or small, makes  difference. Please join us in supporting the relief <br> efforts and making a positive impact on the lives of those in need..</p>
+          <h2 class="card-title lg:text-xl text-xs font-bold">Donate for Flood at Noakhali, Bangladesh!</h2>
+          <p class="font-light text-[8px] lg:text-[14px] "> The recent floods in Noakhali have caused significant damage to <br> homes  infrastructure. Your donation will help provide essential <br> supplies and  to those affected by this disaster. Every contribution, <br> big or small, makes  difference. Please join us in supporting the relief <br> efforts and making a positive impact on the lives of those in need..</p>
 
           <input id="donate-input" type="text" placeholder="Write Donation Amount" class="input input-bordered w-full mx-auto" />
         <!--  modalo -->
@@ -98,21 +97,21 @@
 
 <!-- second Donate Card  -->
 
-      <div class=" mt-7 card lg:px-5 lg:card-side bg-base-100 border-2 border-gray-200">
+      <div class=" mb-5 lg:mb-0 lg:mt-7 card lg:px-5 lg:card-side bg-base-100 border-2 border-gray-200">
         <figure >
-          <img class="w-96"
+          <img class="w-72 pt-5 lg:pt-0 lg:w-96"
             src="assets/feni.png"
             alt="Noakhali" />
         </figure>
         <div class="card-body gap-y-2">
 <div>
-  <kbd class="kbd gap-x-2 "> 
-    <img class="w-5" src="assets/coin.png" alt="">
-    <h4 id="second-submit-amount" class=" text-[#515151] font-semibold">0 BDT</h4>
+  <kbd class="kbd gap-x-1 lg:gap-x-2"> 
+    <img class="w-3 lg:w-5" src="assets/coin.png" alt="">
+    <h4 id="second-submit-amount" class="text-[#515151] lg:text-xl text-xs sm:font-medium lg:font-semibold">0 BDT</h4>
   </kbd>
 </div> 
-          <h2 class="card-title font-bold">Donate for Flood Relief in Feni,Bangladesh</h2>
-          <p class="font-light text-[14px] "> The recent floods in Noakhali have caused significant damage to <br> homes  infrastructure. Your donation will help provide essential <br> supplies and  to those affected by this disaster. Every contribution, <br> big or small, makes  difference. Please join us in supporting the relief <br> efforts and making a positive impact on the lives of those in need..</p>
+          <h2 class="card-title lg:text-xl text-xs font-bold">Donate for Flood Relief in Feni,Bangladesh</h2>
+          <p class="font-light text-[8px] lg:text-[14px]"> The recent floods in Noakhali have caused significant damage to <br> homes  infrastructure. Your donation will help provide essential <br> supplies and  to those affected by this disaster. Every contribution, <br> big or small, makes  difference. Please join us in supporting the relief <br> efforts and making a positive impact on the lives of those in need..</p>
 
           <input id="second-donate-input" type="text" placeholder="Write Donation Amount" class="input input-bordered w-full mx-auto" />
 
@@ -140,21 +139,21 @@
 
 <!-- third Donate Card  -->
 
-<div class=" mt-7 card lg:px-5 lg:card-side bg-base-100 border-2 border-gray-200">
+<div class=" lg:mt-7 card lg:px-5 lg:card-side bg-base-100 border-2 border-gray-200">
   <figure >
-    <img class="w-96"
+    <img class="w-72 pt-5 lg:pt-0 lg:w-96"
       src="assets/quota-protest.png"
       alt="Noakhali" />
   </figure>
   <div class="card-body gap-y-2">
 <div>
-<kbd class="kbd gap-x-2 "> 
-<img class="w-5" src="assets/coin.png" alt="">
-<h4 id="third-submit-amount" class=" text-[#515151] font-semibold">0 BDT</h4>
+<kbd class="kbd  gap-x-1 lg:gap-x-2 "> 
+<img class="w-3 lg:w-5" src="assets/coin.png" alt="">
+<h4 id="third-submit-amount" class=" text-[#515151] lg:text-xl text-xs sm:font-medium lg:font-semibold">0 BDT</h4>
 </kbd>
 </div> 
-    <h2 class="card-title font-bold">Aid for Injured in the Quota Movement</h2>
-    <p class="font-light text-[14px] "> The recent floods in Noakhali have caused significant damage to <br> homes  infrastructure. Your donation will help provide essential <br> supplies and  to those affected by this disaster. Every contribution, <br> big or small, makes  difference. Please join us in supporting the relief <br> efforts and making a positive impact on the lives of those in need..</p>
+    <h2 class="card-title lg:text-xl text-xs font-bold">Aid for Injured in the Quota Movement</h2>
+    <p class="font-light text-[8px] lg:text-[14px]"> The recent floods in Noakhali have caused significant damage to <br> homes  infrastructure. Your donation will help provide essential <br> supplies and  to those affected by this disaster. Every contribution, <br> big or small, makes  difference. Please join us in supporting the relief <br> efforts and making a positive impact on the lives of those in need..</p>
 
     <input id="third-donate-input" type="text" placeholder="Write Donation Amount" class="input input-bordered w-full mx-auto" />
 
@@ -184,8 +183,6 @@
     
     <!-- transaction history -->
 <section class="hidden" id="history-section">
-
-
 </section>
     <!-- transaction history -->
     </main>

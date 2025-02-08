@@ -17,3 +17,9 @@ function hiddenAddFunction(id){
 document.getElementById(id).classList.remove('hidden') ;
 
 }
+
+// Button Click to Second HTML page pick 
+
+document.getElementById('blog-page-btn').addEventListener('click', function(){
+    window.location.href='/blog.html' ;
+})

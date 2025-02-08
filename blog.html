@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awsome -->
+    <script src="https://kit.fontawesome.com/6c2c9a2d71.js" crossorigin="anonymous"></script>
+<!-- DaisyUI CDN Link -->
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- Tailwind CDN Link -->
+<script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+<!-- Google Font Link-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <title>Blog WebSite</title>
+</head>
+<body>
+
+    <!-- Header section -->
+  <header>
+    <!-- navbar -->
+<nav>
+<div class="  fixed shadow-md top-0  z-1 navbar py-8 px-4  lg:px-32 glass">
+  <div class="navbar-start">
+      <div>
+          <button id="home-page-btn" class="btn lg:btn-ms lg:text-lg bg-[#B4F461] font-medium lg:font-semibold lg:px-9 ">Home</button>
+      </div>
+  </div>
+  <div class="navbar-center">
+      <div class="mr-2">
+          <img class="w-6 lg:w-10" src="assets/logo.png" alt=" Donate logo">
+      </div>
+<h4 class=" text-xs lg:text-2xl font-semibold">Donate Bangladesh</h4>
+  </div>
+  <div class="navbar-end">
+   <div><img class="w-5 mr-1" src="assets/coin.png" alt=""></div>
+   <h4 id="account-balance" class="font-medium text-xs lg:text-lg text-[#515151]">5500 BDT</h4>
+  </div>
+</div>
+</nav>
+</header>
+
+<!-- main section -->
+
+    <main class="mt-36 lg:container lg:mx-auto">
+
+<div class="mb-8 ml-2">
+  <h1 class=" text-2xl lg:text-5xl font-bold">Important FAQ <i class="fa-solid fa-question"></i></h1>
+</div>
+<!-- //// -->
+          <div class="collapse collapse-arrow  bg-base-200">
+            <input type="radio" name="my-accordion-2" checked="checked" />
+            <div class="collapse-title text-sm lg:text-2xl font-bold"> What is the Document Object Model (DOM)?</div>
+            <div class="collapse-content font-medium lg:font-semibold text-xs lg:text-xl">
+              <p>programming interface for web documents</p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-sm lg:text-2xl font-bold">How do you select an element form the DOM?</div>
+            <div class="collapse-content  font-medium lg:font-semibold text-xs lg:text-xl">
+              <p>getElementById(id) <br>
+                getElementsByClassName(Classname) <br>
+                querySelector(cssSelector)</p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-sm lg:text-2xl font-bold">What is event delegation in the context of the DOM and why is it useful?</div>
+            <div class="collapse-content  font-medium lg:font-semibold text-xs lg:text-xl">
+              <p>the process of using event propagation (bubbling) to handle events at a higher level in the DOM than the element on which the event originated.</p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-sm lg:text-2xl font-bold">How do you mainipulate an element,s attributes and styles using the DOM?</div>
+            <div class="collapse-content  font-medium lg:font-semibold text-xs lg:text-xl">
+              <p>first need to select the desired element using methods like getElementById, querySelector, or similar, then access its properties to modify attribute values with setAttribute and change </p>
+            </div>
+          </div>
+
+    </main>
+<script>
+  document.getElementById('home-page-btn').addEventListener('click', function(){
+    window.location.href='/index.html' ;
+})
+</script>
+
+</body>
+
+</html>
